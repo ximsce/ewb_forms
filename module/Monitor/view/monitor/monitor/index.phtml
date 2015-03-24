@@ -1,0 +1,12 @@
+<?php foreach ($this->dmForms->forms as $form => $formProperties): ?>
+<div>
+    <div class="form_url">
+        <a href="<?php echo $this->url('monitor', array('action' => 'report', 'id' => $formProperties->id)); ?>">
+            <?php echo $this->escapeHtml($formProperties->name); ?>
+        </a>
+    </div>
+    <div class="form_description">
+        <?php echo $this->escapeHtml($formProperties->description); ?>
+    </div>
+</div>
+<?php endforeach; ?>

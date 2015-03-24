@@ -1,0 +1,10 @@
+<div>
+    <div class="head">
+        <h2><?php echo $this->dmForm->title; ?></h2>
+    <?php foreach($this->dmForm->inputs as $input): ?>
+        <div class="head-element">
+        <?php echo $this->partial('partial/' . $input['type'] . '.phtml', array('input' => $input)); ?>
+        </div>
+    <?php endforeach; ?>
+    </div>
+</div>

@@ -2,3 +2,4 @@ INSTALL.txt
 LICENSE.txt
 README.txt
 vendor/
+/nbproject/private/

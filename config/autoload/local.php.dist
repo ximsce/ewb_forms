@@ -12,4 +12,10 @@
  */
 
 return array(
+    'dmBaseUrl' => 'https://www.devicemagic.com/organizations/',
+    'dmFormsXml' => '/forms.xml',
+    'dmFormsEndpoint' => '/forms',
+    'dmOrganizationId' => 'ORGANIZATION_ID',
+    'dmApiKey' => 'API_KEY',
+    'dmApiPassword' => 'x',
 );
